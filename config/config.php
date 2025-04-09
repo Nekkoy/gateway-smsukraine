@@ -9,7 +9,7 @@ return [
     "sms_on_fail" => env('SMSUKRAINE_RESEND_IF_VIBER_FAIL', 0),
     "priority" => env('SMSUKRAINE_PRIORITY', 1),
     "prefix" => env('SMSUKRAINE_PREFIX', "any"),
-    "tags" => env('SMSUKRAINE_TAGS', '#mobizone'),
+    "tags" => env('SMSUKRAINE_TAGS', '#smsukraine'),
     "default" => env('SMSUKRAINE_DEFAULT', false),
     "devmode" => env('SMSUKRAINE_DEVMODE', false),
 ];
